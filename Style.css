@@ -1,26 +1,44 @@
-body{background-color: rgb(237, 0, 162);}
-
-p{color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: bold;}
-
-h1{color: rgb(189, 180, 251);}
-h2{color: rgb(241, 116, 116);}
-h3{color: rgb(194, 255, 108);}
-h4{color: rgb(81, 240, 217);}
-
-li{color: rgb(255, 235, 187);
-font-size: 26px;
-font-weight: underline;}
-#sixseven{font-size: 50px;}
-
-.black-bg{
-    background-color:black;
-    color: white;
-    padding: 0px 32px;
-margin: 0px 32px;
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
-#bob{
-    background-color: blue;
+
+#container{
+    background-color: #EEEEEE;
+    width: 100vw;
+    height: 50vh;
+
+    /*display flex is the keyword to setup autolayout*/
+    display: flex;
+    /*what direction the children will face*/
+    flex-direction: row;
+    /*we center on both axis*/
+    justify-content: center;
+    align-items: center;
+    /*the gap between the children*/
+    gap: 20px;
+}
+
+.box{
+    background-color: #888888;
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    background-color:#C9E39A;
+    padding: 16px;
+    border-radius: 8px;
+    width: 20%;
+}
+
+#section{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
 }
