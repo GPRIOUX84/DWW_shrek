@@ -1,0 +1,26 @@
+body{background-color: rgb(237, 0, 162);}
+
+p{color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: bold;}
+
+h1{color: rgb(189, 180, 251);}
+h2{color: rgb(241, 116, 116);}
+h3{color: rgb(194, 255, 108);}
+h4{color: rgb(81, 240, 217);}
+
+li{color: rgb(255, 235, 187);
+font-size: 26px;
+font-weight: underline;}
+#sixseven{font-size: 50px;}
+
+.black-bg{
+    background-color:black;
+    color: white;
+    padding: 0px 32px;
+margin: 0px 32px;
+}
+
+#bob{
+    background-color: blue;
+}
